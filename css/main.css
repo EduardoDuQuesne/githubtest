@@ -63,3 +63,17 @@ footer {
     text-align: center;
     clear: both;
 }
+
+/* Flex Container for Witches */
+.flex-witch {
+    display: flex;
+    display: -webkit-flex; /* For browsers that dont support, from css cheat sheet*/
+    width: 100%;
+    background-color: seagreen;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.flex-item {
+    background-color: hotpink;
+    margin: 1em;
+}
